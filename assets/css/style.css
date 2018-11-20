@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Abel', sans-serif;
 }
 
 /*LANDING PAGE*/
@@ -35,8 +35,6 @@
 	color: #FBBA72;
 	text-decoration: none;
 	font-size: 25px;
-
-
 }
 
 .btn:hover{
@@ -92,7 +90,11 @@
 
 
 /*PAINTINGS*/
-
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
 
 
 /*end paintings*/
