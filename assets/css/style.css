@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*LANDING PAGE*/
+.jumbotron hr{
+	background-color: #fff; /*white*/
+}
+
+
+#jumbo-land{
+	height: 100vh;
+	padding-top: 20%;
+	background-color: #333;
+	border-radius: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-image: url("../images/bg.jpg");
+}
+
+.jumbotron h1 {
+	color: #f2f2f2;
+}
+
+.btn{
+	background-color: #3C1518; 
+}
+
+.btn a {
+	color: #FBBA72;
+	text-decoration: none;
+	font-size: 25px;
+
+
+}
+
+.btn:hover{
+	background-color: #FBBA72;
+}
+
+.btn a:hover{
+	color: #3C1518;
+}
+
+.lead { /*p*/
+	font-family: 'Satisfy', cursive;
+	font-size: 50px;
+	text-shadow: 2px 2px black;
+	color: white;
+}
+
+/*end landing page*/
+
+
+/*HOME PAGE*/
+#home-landing{
+	background-color: #333; /*black*/
+	color: #fff; /*white*/
+	padding: 20%;
+	background-image: url(); ;
+}
+
+/*#carousel-home{
+	height: 100vh;
+}
+
+#carousel-home img{
+	width: 100vw;
+	
+}
+*/
+
+/*end home page*/
+
+/*NAVBAR*/
+.navbar{
+	background-color: #3C1518;
+}
+
+.nav-link:hover{
+	color: #FBBA72;
+}
+
+/*end navbar*/
+
+
+
+
+/*PAINTINGS*/
+
+
+
+/*end paintings*/
+
+
+
+
+/*FOOTER*/
+
+footer{
+	background-color: #3C1518;
+	color: white;
+	width: 100%;
+}
+
+
+
+/*end footer*/
+
+
