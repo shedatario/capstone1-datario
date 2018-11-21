@@ -2,9 +2,14 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
 	font-family: 'Abel', sans-serif;
 }
+
+[class*="col-"] {
+	border: 2px solid transparent;
+}
+
+
 
 /*LANDING PAGE*/
 .jumbotron hr{
@@ -55,13 +60,10 @@
 /*end landing page*/
 
 
+
+
 /*HOME PAGE*/
-#home-landing{
-	background-color: #333; /*black*/
-	color: #fff; /*white*/
-	padding: 20%;
-	background-image: url(); ;
-}
+
 
 /*#carousel-home{
 	height: 100vh;
@@ -75,6 +77,18 @@
 
 /*end home page*/
 
+/*ABOUT*/
+.img-vg{
+	width: 300px;
+	border-radius: 3%
+}
+
+.vg{
+	min-height: 100vh;
+}
+
+/*end about*/
+
 /*NAVBAR*/
 .navbar{
 	background-color: #3C1518;
@@ -86,6 +100,7 @@
 
 /*end navbar*/
 
+/*IMAGES*/
 
 
 
@@ -94,6 +109,10 @@
 	max-width: 100%;
 	height: auto;
 	margin: 0 auto;
+}
+
+.card li{
+	list-style-type: none; 
 }
 
 
@@ -108,10 +127,14 @@ footer{
 	background-color: #3C1518;
 	color: white;
 	width: 100%;
+	margin: 0;
+	bottom: 0;
 }
 
-
-
 /*end footer*/
+
+
+
+
 
 
