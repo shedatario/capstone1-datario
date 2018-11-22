@@ -165,13 +165,60 @@ footer{
 }
 
 .back{
-	background-color: black;
+	margin: 0;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: white;
+	overflow: hidden;
+
 }
+
+/*.video-header{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	color: aliceblue;
+}
+
+.wrap{
+	max-width: 960px;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin: auto;
+	text-align: center;
+}
+
+.fullscreen-video-wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+
+}
+
+.fullscreen-video-wrap{
+	min-height: 100%;
+	max-width:  100%;
+}
+
+.header-overlay{
+	width: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(34, 33, 33, 0.52); 
+	opacity: 0.00;
+}
+
+
+*/
 
 .knockout-text-one{
 	color: transparent;
 	font-family: 'Archivo Black', sans-serif;
-	background: url("../images/starrynight1.gif") no-repeat;
+	background: url("../images/vg.gif") no-repeat;
 	background-size: cover;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
