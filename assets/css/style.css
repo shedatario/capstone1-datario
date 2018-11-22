@@ -5,10 +5,10 @@
 	font-family: 'Abel', sans-serif;
 }
 
-[class*="col-"] {
+/*[class*="col-"] {
 	border: 2px solid transparent;
 }
-
+*/
 
 
 /*LANDING PAGE*/
@@ -36,19 +36,22 @@
 	background-color: #3C1518; 
 }
 
-.btn a {
-	color: #FBBA72;
+.btn a{
 	text-decoration: none;
 	font-size: 25px;
+	color: white;
 }
 
 .btn:hover{
 	background-color: #FBBA72;
+	color: black;
 }
 
 .btn a:hover{
-	color: #3C1518;
+	color: black;
+	background-color: #FBBA72;
 }
+
 
 .lead { /*p*/
 	font-family: 'Satisfy', cursive;
@@ -64,7 +67,6 @@
 
 /*HOME PAGE*/
 
-
 /*#carousel-home{
 	height: 100vh;
 }
@@ -79,13 +81,14 @@
 
 /*ABOUT*/
 .img-vg{
-	width: 300px;
+	width: 100%;
 	border-radius: 3%
 }
 
 .vg{
 	min-height: 100vh;
 }
+
 
 /*end about*/
 
@@ -104,7 +107,24 @@
 
 
 
+/*CONTACTS*/
+form{
+	background-color: #3C1518;
+	color: #FBBA72;
+	border-radius: 2%;
+}
+
+
+
+
+/*end contact*/
+
 /*PAINTINGS*/
+h1{
+	color: black;
+	text-shadow: 2px 2px #FBBA72;
+}
+
 .img-fluid{
 	max-width: 100%;
 	height: auto;
@@ -115,6 +135,13 @@
 	list-style-type: none; 
 }
 
+.card{
+	min-height: 100%;
+}
+
+.modal-footer{
+	background-color: white;
+}
 
 /*end paintings*/
 
@@ -133,8 +160,22 @@ footer{
 
 /*end footer*/
 
+.modal-dialog{
 
+}
 
+.back{
+	background-color: black;
+}
 
+.knockout-text-one{
+	color: transparent;
+	font-family: 'Archivo Black', sans-serif;
+	background: url("../images/starrynight1.gif") no-repeat;
+	background-size: cover;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-size: 20vw;
+	text-align: center;
 
-
+}
