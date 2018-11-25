@@ -15,16 +15,17 @@
 
 .landing{
 	background-color: black;
+	background-image: url("../images/starrynight2.gif")no-repeat;
 	padding: 0;
 	margin: 0;
 	height: 100vh;
 }
+
 .button{
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
 }
-
 
 .btn-about{
 	background-color: transparent;
@@ -41,11 +42,11 @@
 .knockout-text-one{
 	color: transparent;
 	font-family: 'Archivo Black', sans-serif;
-	background: url("../images/starrynight2.gif") no-repeat;
+	background: url("../images/starrynight2.gif")no-repeat;
 	background-size: cover;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-	font-size: 18vw;
+	font-size: 16vw;
 	text-align: center;
 }
 
@@ -89,7 +90,7 @@ h1{
 }
 
 .img-fluid{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 	margin: 0 auto;
 }
@@ -100,6 +101,7 @@ h1{
 
 .card{
 	min-height: 100%;
+	margin-bottom: 100px;
 }
 
 .modal-footer{
@@ -116,10 +118,6 @@ form{
 	border-radius: 2%;
 }
 
-
-.fa-user{
-
-}
 /*end contact*/
 
 
@@ -313,4 +311,26 @@ transition-delay:.2s;
 	background-color: #FBBA72;
 	color: #3C1518;
 }
+
+.img-fluid-modal{
+	height: 100%;
+	width: 100%;
+}
+
+.btn-down{
+	background-color: transparent;
+}
+
+.img-down{
+	width: 8%;
+	height: 8%;
+}
+
+
+
+
+
+
+
+
 
