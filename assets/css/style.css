@@ -66,17 +66,25 @@
 .vg{
 	min-height: 100vh;
 }
+.about{
+	font-size: 18px;
+}
 
 /*end about*/
 
 
 /*NAVBAR*/
 .navbar{
-	background-color: #3C1518;
+	/*background-color: #3C1518;*/
+	background-color: #123f77;
 }
 
 .nav-link:hover{
 	color: #FBBA72;
+}
+
+.navbar-brand{
+	font-family: 'Caveat Brush', cursive;
 }
 
 /*end navbar*/
@@ -113,10 +121,22 @@ h1{
 
 /*CONTACTS*/
 form{
-	background-color: #3C1518;
+	/*background-color: #3C1518;*/
 	color: #FBBA72;
 	border-radius: 2%;
 }
+
+.btn-contact{
+	background-color: transparent;
+	color: #FBBA72;
+
+}
+
+.btn-contact:hover{
+	background-color: #FBBA72;
+	color: black;
+}
+
 
 /*end contact*/
 
@@ -127,7 +147,8 @@ form{
 /*FOOTER*/
 
 footer{
-	background-color: #3C1518;
+	/*background-color: #3C1518;*/
+	background-color: #123f77;
 	color: white;
 	width: 100%;
 	margin: 0;
@@ -279,31 +300,26 @@ transition-delay:.2s;
 	transform: translate(-50%, -50%);
 }
 
-.btn-contact{
-	background-color: transparent;
-	color: #FBBA72;
-	border-radius: 5%;
-}
-
-.btn-contact:hover{
-	background-color: #FBBA72;
-	color: black;
-}
 
 .btn-g{
-	background-color: #3C1518;
-	color: #FBBA72;
+	/*background-color: #3C1518;
+	color: #FBBA72;*/
+	background-color: #123f77;
+	color: #f5db37;
 	border-radius: 10%;
 	
 }
 
 .btn{
-	color: #FBBA72;
-	background-color: #3C1518;
+	/*color: #FBBA72;*/
+	/*background-color: #3C1518;*/
+	background-color: #123f77;
+	color: #f5db37;
+
 }
 
 .btn:hover{
-	background-color: #FBBA72;
+	background-color: #0f86b6;
 	color: #3C1518;
 }
 
