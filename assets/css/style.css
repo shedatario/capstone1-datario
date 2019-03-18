@@ -16,7 +16,8 @@
 .landing{
 	background-color: black;
 	background-image: url("../images/starrynight2.gif")no-repeat;
-	padding: 0;
+	/*padding: 0;*/
+	padding-top: 50px;
 	margin: 0;
 	height: 100vh;
 }
@@ -46,7 +47,7 @@
 	background-size: cover;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-	font-size: 16vw;
+	font-size: 20vmin;
 	text-align: center;
 }
 
